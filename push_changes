@@ -1,5 +1,5 @@
 #!/bin/bash
-# Template from https://github.com/seanbreckenridge/havecmd
+# Template from https://github.com/purarue/havecmd
 
 declare script_name
 script_name="$(basename "${BASH_SOURCE[0]}")"
