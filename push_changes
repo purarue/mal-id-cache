@@ -35,6 +35,7 @@ cd "${this_dir}" || {
 main() {
 	while true; do
 		date
+		git pull
 		./update_from_hiyori "${1:-"$HOME/code/checker_mal/cache/"}"
 		git add ./cache
 		git commit -m "cache updates" && git push
